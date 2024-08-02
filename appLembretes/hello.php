@@ -1,23 +1,14 @@
 <?php
 
+
 require('./../config.php');
 
-
-$array =[
-    'error' => "",
-    'result' => [
-        
-        ]
+$array[]=[
+    "error"=>"",
+    "result"=> []
 ];
-
-
 
 require('./../return.php');
 
-
-
-
-
-
-
+exit;
 ?>
