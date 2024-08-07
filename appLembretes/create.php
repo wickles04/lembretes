@@ -13,6 +13,7 @@ if ($metodo ==='POST'){
         $sql->bindValue(':titulo', $titulo);
         $sql->bindValue(':corpo', $corpo);
         $sql->execute();
+
     }else{
         $array['error'] = 'Erro: Valores nulos ou inválidos!';
     }
@@ -21,5 +22,17 @@ if ($metodo ==='POST'){
     $array['error'] = 'Erro: Ação invalida - Método permitido apenas POST';
 }
 require('./../return.php');
+
+/*  DESAFIOS para 7AGO
+
+-Como faço para pegar o id 
+
+*/
+
+
+
+
+
+
 
 ?>
